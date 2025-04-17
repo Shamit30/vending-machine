@@ -32,7 +32,7 @@ $ docker tag yourusername/repository-image-name yourdockerhubusername/repository
 4. Docker-Hub login:
 $ docker login
 5. Push the local image to docker-hub
-$ docker push abiodunjames/example-node-app:v1 
+$ docker push samsoni30/vending_machine:v4
 6. List docker containers:
 $ docker ps -a
 
