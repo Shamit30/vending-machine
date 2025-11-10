@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spark-jobs-oop"
+version = "0.1.0"
+description = "OOP refactor of PageRank and IoT CSV sorting Spark jobs"
+authors = [{name="Your Name"}]
+requires-python = ">=3.9"
+dependencies = [
+  "pyspark>=3.3.0"
+]
+
+[project.scripts]
+sparkjobs = "sparkjobs.cli:main"
