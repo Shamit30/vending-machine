@@ -2,7 +2,7 @@
 
 Object-oriented, production-grade refactor of:
 - **PageRank** jobs (partition tuning, persistence, failure simulation hooks)
-- **IoT CSV sort** job (sort by `cca2` then `timestamp` and write back to HDFS)
+- **IoT CSV sort** job (sort by `cca2` then `timestamp`)
 
 
 ## CLI
